@@ -3,10 +3,10 @@ import re
 import csv
 
 
-chave_consumidor = "hYsrRTxwOLHPpcr0RPFiXuJr8"
-segredo_consumidor = "f8IdVbpeCD4FGBSx9AMAR7RcAAmgqCag7L65YvCMQ5QoIeRMdV"
-token_acesso = "1131229409057431552-IIkgSBVBiHIUvgwDjhi1RjUxe8OEb5"
-token_acesso_segredo = "6Yo4z1mVmEa7O0ZrNr1AQOQWHGgrmwbVv9mKfxDtjXVEI"
+chave_consumidor = ""
+segredo_consumidor = ""
+token_acesso = ""
+token_acesso_segredo = ""
 
 auth = tweepy.OAuthHandler(chave_consumidor,segredo_consumidor )
 auth.set_access_token(token_acesso, token_acesso_segredo)
